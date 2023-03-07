@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    /* dialog */
+  .modal {
+    z-index: 1055;
+  }
+
+  .modal-dialog {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-dialog-scrollable {
+    @apply max-h-[100%];
+    height: calc(100% - 1rem);
+  }
+
+  .modal-dialog-scrollable-body {
+    @apply overflow-y-auto relative max-h-[500px] px-10;
+  }
+
+  .modal-fullscreen {
+    width: 100%;
+  }
+
+  @media (min-width: 375px) {
+    .modal-dialog {
+      width: 300px;
+    }
+    .modal-dialog-scrollable {
+      height: calc(100% - 3.5rem);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .modal-dialog {
+      width: 500px;
+      margin: 1.75rem auto;
+    }
+  }
+}
