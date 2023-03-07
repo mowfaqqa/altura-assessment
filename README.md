@@ -19,3 +19,8 @@ yarn dev
 - [React Query](https://react-query-v3.tanstack.com) - Performant and powerful data synchronization for React.
 - [Axios](https://axios-http.com/docs/intro) - For API integration.
 
+##Screenshot
+
+![Screenshot (134)](https://user-images.githubusercontent.com/71173373/223544960-9c3decd6-0102-4ab1-960b-19863d77d2aa.png)
+
+![Screenshot (135)](https://user-images.githubusercontent.com/71173373/223545119-1dd48792-f49b-4918-a265-e0bb2498fcef.png)
