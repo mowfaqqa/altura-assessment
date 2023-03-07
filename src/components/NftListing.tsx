@@ -6,7 +6,6 @@ import { useRouter } from "next/router";
 import Dialog from "./Modal";
 import Image from "next/image";
 import { Oval } from "react-loader-spinner";
-import PaginatedLayout from "./PaginationLayout";
 
 const NftListing = () => {
     // use router hook for navigation
