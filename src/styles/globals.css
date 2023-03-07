@@ -19,7 +19,7 @@
 
   .modal-dialog-scrollable {
     @apply max-h-[100%];
-    height: calc(100% - 1rem);
+    height: 100%;
   }
 
   .modal-dialog-scrollable-body {
@@ -32,16 +32,16 @@
 
   @media (min-width: 375px) {
     .modal-dialog {
-      width: 300px;
+      width: 350px;
     }
     .modal-dialog-scrollable {
-      height: calc(100% - 3.5rem);
+      height: 100%;
     }
   }
 
   @media (min-width: 768px) {
     .modal-dialog {
-      width: 500px;
+      width: 700px;
       margin: 1.75rem auto;
     }
   }

@@ -34,7 +34,7 @@ export function Dialog(props: IDialogProps) {
           className={clsx({
             ["max-h-[100%]"]: variant === "scrollable",
             ["rounded-lg"]: variant === "scroll" || variant === "scrollable",
-          })}
+          } )}
         >
           {children}
         </DialogContent>
